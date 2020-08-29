@@ -1,0 +1,45 @@
+.video-footer {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  left: 20px;
+  display: flex;
+  align-items: flex-end;
+  width: calc(100% - 40px);
+}
+
+.record {
+  animation: spin 5s infinite linear;
+  height: 50px;
+  filter: invert(1);
+}
+
+.video-text {
+  flex: 1;
+}
+
+.video-footer h4 {
+  margin: 0;
+}
+
+.video-footer p {
+  max-width: 80%;
+}
+
+.ticker {
+  flex: 1;
+}
+
+.ticker h5 {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

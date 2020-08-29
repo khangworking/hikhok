@@ -1,0 +1,30 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.App {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  position: relative;
+  height: 700px;
+  overflow: scroll;
+  width: 80%;
+  max-width: 400px;
+  scroll-snap-type: y mandatory;
+  border-radius: 20px;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
